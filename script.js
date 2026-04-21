@@ -14,7 +14,7 @@ askButton.addEventListener('click', function() {
         .then(data => {
             console.log(data);
             const answer = data.answer;
-            answerGif.scr = data.image;
+            answerGif.src = data.image;
             answerGif.style.display = 'block';
             questionInput.style.display = 'none';
             askButton.style.display = 'none';
